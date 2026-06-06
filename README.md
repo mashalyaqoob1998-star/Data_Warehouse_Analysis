@@ -49,7 +49,7 @@ sql-data-analytics-project/
 `-- README.md
 
 
-Requirements
+## Requirements
 Microsoft SQL Server
 SQL Server Management Studio, Azure Data Studio, or another SQL client
 Permission to run CREATE DATABASE, CREATE SCHEMA, CREATE TABLE, and BULK INSERT
@@ -59,7 +59,7 @@ git clone https://github.com/<your-username>/sql-data-analytics-project.git
 cd sql-data-analytics-project
 Open the project in your SQL client.
 
-Create and load the database using:
+## Create and load the database using:
 
 scripts/00_init_database.sql
 Important: this script drops and recreates the DataWarehouseAnalytics database if it already exists. Do not run it against a database that contains data you need to keep.
@@ -99,7 +99,7 @@ Customer and product segmentation
 Part-to-whole analysis
 SQL reporting views
 Example Business Questions
-This project answers questions such as:
+## This project answers questions such as:
 
 What are the total sales, total quantity sold, and total number of orders?
 Which products generate the highest revenue?
@@ -109,7 +109,7 @@ Which customers generate the most revenue?
 How can customers be segmented by spending behavior?
 Which products are high performers, mid-range performers, or low performers?
 Reporting Views
-The final scripts create reusable reporting views:
+## The final scripts create reusable reporting views:
 
 gold.report_customers
 gold.report_products
